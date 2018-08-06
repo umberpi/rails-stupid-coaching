@@ -1,0 +1,10 @@
+<h1>STUPID COACHING</h1>
+<p>Ask your coach anything</p>
+<form action="/ask" method="post" class="form">
+    <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+
+  <input type="text" class="form-inline" name="question">
+  <input type="submit" class="btn-primary btn-md button" value="Ask!" >
+
+
+</form>
